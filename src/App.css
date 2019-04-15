@@ -5,6 +5,10 @@ span {
     font-size: 0.6em;
 }
 
+.card-image {
+    text-align: center;
+}
+
 .new {
     display: flex;
     flex-drection: row;
@@ -13,4 +17,5 @@ span {
 
 .grid {
     flex: auto;
+    height: 375px;
 }

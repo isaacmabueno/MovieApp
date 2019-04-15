@@ -13,7 +13,7 @@ class App extends Component {
     };
 
   fetchMovies(search) {
-      fetch(`https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&language=en-US&query=${search}&page=${this.state.page_num}` )
+      fetch(`https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&language=en-US&query=${search}&page=${this.state.page_num}`)
           .then(res => res.json())
           .then(json => this.setState({ movies: json.results, total_pages: json.total_pages }));
   }

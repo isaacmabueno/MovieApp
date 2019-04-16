@@ -1,5 +1,5 @@
 ## Live Demo
-[LIVE DEMO ](https://aqueous-forest-58663.herokuapp.com/)
+[Movie App Demo ](https://aqueous-forest-58663.herokuapp.com/)
 
 
 ## Application and Dependencies

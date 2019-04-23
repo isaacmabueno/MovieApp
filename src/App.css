@@ -1,8 +1,8 @@
 span {
     text-align: center;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 0.6em;
+    font-weight: 500;
+    font-size: 0.8em;
 }
 
 .card-image {
@@ -13,9 +13,27 @@ span {
     display: flex;
     flex-drection: row;
     flex-wrap: wrap;
+    border: 1px solid #efefef !important;
+    border-radius: 4px;
 }
 
 .grid {
     flex: auto;
-    height: 375px;
+}
+h1 {
+    font-size: 2em;
+    border-bottom: 1px solid;
+    margin-bottom: 0;
+}
+
+.card {
+    margin: 0;
+}
+.new .col {
+    padding-left: 0;
+    padding-right: 2em;
+}
+
+p {
+    font-weight: 700;
 }

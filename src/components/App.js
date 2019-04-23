@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import Nav from './Nav';
-import Movie from "./Movie.js";
+import Movie from './Movie.js';
 
 const API_KEY = process.env.REACT_APP_MOVIE_API_KEY;
 
@@ -66,9 +66,7 @@ class App extends Component {
             </div>
           </div>
           <div className="container">
-              <div className="row new">
-                { this.state.movies ? (this.state.movies.map(movie => <Movie key={movie.id} movie={movie} />)) : (null) }
-              </div>
+            { this.state.movies ? (this.state.movies.map(movie => <Movie key={movie.id} movie={movie} />)) : (null) }
           </div>
         </div>
     );

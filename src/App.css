@@ -2,7 +2,8 @@ span {
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 0.8em;
+    color: rgba(0,0,0,0.6);
+    line-height: 1em;
 }
 
 .card-image {
@@ -21,9 +22,9 @@ span {
     flex: auto;
 }
 h1 {
-    font-size: 2em;
-    border-bottom: 1px solid;
+    font-size: 1.1em;
     margin-bottom: 0;
+    font-weight: 600;
 }
 
 .card {
@@ -35,5 +36,14 @@ h1 {
 }
 
 p {
-    font-weight: 700;
+    word-wrap: break-word;
+    white-space: normal;
+    color: #4d4d4d;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    margin-top: 30px;
+}
+
+.movie-info-area {
+    padding: 0 3em !important;
 }

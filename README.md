@@ -1,7 +1,7 @@
 ## Live Demo
 [Movie App Demo ](https://aqueous-forest-58663.herokuapp.com/)
 
-<img width="1438" alt="Screen Shot 2019-06-03 at 4 44 01 PM" src="https://user-images.githubusercontent.com/10871164/58836604-d14aec80-861e-11e9-9e58-3350c240b155.png">
+<img width="1438" alt="Screen Shot 2019-06-03 at 4 40 53 PM" src="https://user-images.githubusercontent.com/10871164/58836827-72d23e00-861f-11e9-88a5-ff08d9fa4f39.png">
 
 ## Application and Dependencies
 
